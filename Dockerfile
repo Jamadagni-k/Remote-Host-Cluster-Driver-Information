@@ -13,4 +13,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . /app/
 
 # Command to run your application
-CMD ["python", "CVE_Dashboard1.py"]
+CMD ["streamlit", "run", "CVE_Dashboard.py"]
